@@ -1,4 +1,4 @@
-import BasicCalculator from "@/components/BasicCalculator";
+import AdvancedCalculator from "@/components/AdvancedCalculator";
 import {
 	Card,
 	CardContent,
@@ -23,7 +23,7 @@ const page = () => {
 				</CardHeader>
 
 				<CardContent>
-					<BasicCalculator />
+					<AdvancedCalculator />
 				</CardContent>
 			</Card>
 		</section>
