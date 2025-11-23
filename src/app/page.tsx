@@ -1,3 +1,4 @@
+import BasicCalculator from "@/components/BasicCalculator";
 import {
 	Card,
 	CardContent,
@@ -21,7 +22,9 @@ const page = () => {
 					</CardTitle>
 				</CardHeader>
 
-				<CardContent></CardContent>
+				<CardContent>
+					<BasicCalculator />
+				</CardContent>
 			</Card>
 		</section>
 	);
